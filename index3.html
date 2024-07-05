@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div align="center">
+        <br>
+        username: <input type="username" name="username"><br>
+        <br>
+        password: <input type="password" name="pwd"><br>
+        <br>
+        <input type="submit" value="submit">
+        </div>
+    </form>
+    <h2>
+        <p>
+            <s>my car is blue</s>
+        </p>
+        <p>my new car is silver.</p>
+    </h2>
+    <table  border="2" cellpadding="4">
+        <tr>
+            <th rowspan=3>sale1</th>
+            <td>jan</td><td>$1493</td>
+        </tr>
+        <tr>
+            <td>feb</td><td>$3829</td>
+        </tr>
+        <tr>
+            <td>mar</td><td>$5283</td>
+        </tr>
+        <tr>
+            <th rowspan="3">sale2</th>
+            <td>april</td><td>$4827</td>
+        </tr>
+        <tr>
+            <td>may</td><td>$7246</td>
+        </tr>
+        <tr>
+            <td>june</td><td>$5689</td>
+        </tr>
+        
+        <script>
+            var pBar=document.getElementByld('p')
+            var update progress=function(value)
+            {
+                pBar.value=value;
+                pBbar.getElementsByTagName('span')[0].innerHTML=Math.floor((100/70)*value);
+            }
+        </script>
+        <progress id="p" max="70"><span></span></progress>
+</body>
+</html>
